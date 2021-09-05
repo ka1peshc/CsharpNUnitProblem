@@ -42,14 +42,19 @@ namespace NUnitTesting
             {
                 Console.WriteLine("Enter valid input option");
             }
-            */
+            
             MontlyPayment mp = new MontlyPayment();
             Console.WriteLine("Enter folling values Principle amount, no. of years and Rate");
             int Principleamount = int.Parse(Console.ReadLine());
             int NoOfYear = int.Parse(Console.ReadLine());
             int Rate = int.Parse(Console.ReadLine());
             mp.calculateMontlyPayment(Principleamount,NoOfYear,Rate);
+            */
 
+            FindingSquareRoot fsr = new FindingSquareRoot();
+            Console.WriteLine("Enter number to find square root");
+            int numsqrt = int.Parse(Console.ReadLine());
+            fsr.getSquareRoot(numsqrt);
         }
     }
 }
