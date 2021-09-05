@@ -21,8 +21,7 @@ namespace NUnitTesting
             Console.WriteLine("Entered values: Month is" + m + " Day is " + d + " year is" + y);
             DayOfWeek dow = new DayOfWeek();
             dow.checkForDayOfWeek(m, d, y);
-            */
-
+            
             //Temprature convertor
             TempratureConverter tc = new TempratureConverter();
             Console.WriteLine("Enter temprature in number");
@@ -43,7 +42,13 @@ namespace NUnitTesting
             {
                 Console.WriteLine("Enter valid input option");
             }
-
+            */
+            MontlyPayment mp = new MontlyPayment();
+            Console.WriteLine("Enter folling values Principle amount, no. of years and Rate");
+            int Principleamount = int.Parse(Console.ReadLine());
+            int NoOfYear = int.Parse(Console.ReadLine());
+            int Rate = int.Parse(Console.ReadLine());
+            mp.calculateMontlyPayment(Principleamount,NoOfYear,Rate);
 
         }
     }
