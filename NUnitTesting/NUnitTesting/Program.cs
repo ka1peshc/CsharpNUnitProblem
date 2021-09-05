@@ -8,7 +8,7 @@ namespace NUnitTesting
         {
             /*
             //Minimum changes given by vending machine
-            Console.WriteLine("Enter amount to get change from vending machine");
+            "Enter amount to get change from vending machine");
             int amount = Convert.ToInt32(Console.ReadLine());
             MinimumChangesNotes mcn = new MinimumChangesNotes();
             mcn.FindChanges(amount);
