@@ -49,12 +49,22 @@ namespace NUnitTesting
             int NoOfYear = int.Parse(Console.ReadLine());
             int Rate = int.Parse(Console.ReadLine());
             mp.calculateMontlyPayment(Principleamount,NoOfYear,Rate);
-            */
 
             FindingSquareRoot fsr = new FindingSquareRoot();
             Console.WriteLine("Enter number to find square root");
             int numsqrt = int.Parse(Console.ReadLine());
             fsr.getSquareRoot(numsqrt);
+            
+            ToBinaryNumber tb = new ToBinaryNumber();
+            Console.WriteLine("Enter number to convert into Binary");
+            int numB = int.Parse(Console.ReadLine());
+            tb.convertIntoBinary(numB);
+            */
+            BinaryOperations bo = new BinaryOperations();
+            Console.WriteLine("Enter number ");
+            int numBinary = int.Parse(Console.ReadLine());
+            bo.PerformingBinaryOperation(numBinary);
+
         }
     }
 }
