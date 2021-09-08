@@ -53,7 +53,8 @@ namespace NUnitTesting
                 else
                 {
                     Console.WriteLine("Invalid input");
-                }            }
+                }
+            }
             Console.WriteLine("Number of notes required to give {0} is {1}", amt, note);
         }
     }
